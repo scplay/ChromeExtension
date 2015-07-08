@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "一分钟阅读",
+    "version": "1.0",
+    "description": "一分钟阅读放大器",
+    "content_scripts": [
+        {
+            "matches": ["*://app1.rthk.org.hk/elearning/1minreading/*"],
+			//"matches": ["*://www.ituring.com.cn/*"],
+            "js": ["js/onemin.js"]
+			}
+    ]
+	
+}
